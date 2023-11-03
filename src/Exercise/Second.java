@@ -50,7 +50,9 @@ public class Second {
                 if(map.containsKey(a) && map.get(a).equals(b)){
                     System.out.println("Successfully logged in!");
                 }
-                break;
+                if(x!=2){
+                    break;
+                }
             }
             if(x==2){
                 System.out.println("Create an username by following the following rules :");
